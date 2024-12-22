@@ -16,4 +16,4 @@ pip install pillow fpdf2
 python gen.py
 ```
 
-A PDF File will be genrated with the folder.
+A PDF File will be genrated within the folder.
