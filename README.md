@@ -1,5 +1,19 @@
-Generate a PDF with QRs formatted as a grid of tiles.
+# Generate a A4 Sized PDF with QRs formatted as a grid of tiles.
+![alt text](ss.png)
 
-1. RUN -> pip install pillow fpdf2
-2. Add QRs in qr_images folder
-3. RUN -> python gen.py
+
+## Setup & Run
+
+Add your QRs in 'qr_images' folder.
+
+Run the following commands in terminal:
+
+```
+pip install pillow fpdf2
+```
+
+```
+python gen.py
+```
+
+A PDF File will be genrated with the folder.
